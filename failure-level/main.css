@@ -1,0 +1,23 @@
+body{
+    background: url("../assets/charlie-brown.jpg");
+}
+
+* {
+    color: red;
+    animation: resize 1s ease-out infinite alternate;
+}
+
+@keyframes resize {
+    0%{
+        font-size: 1rem;
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        filter: blur(0%);
+    }
+    100%{
+        font-size: 2rem;
+        color: blue;
+        font-family: 'Times New Roman', Times, serif;
+        filter: blur(1px);
+    }
+}

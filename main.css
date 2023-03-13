@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#register-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thumbs-up{
+    cursor: help;
+    
+}
+
+#thumbs-up:hover{
+    width: 500px;
+    height: 500px;
+    animation: wobble 2s linear  infinite alternate-reverse;
+}
+
+@keyframes wobble {
+    0%{
+        transform: scaleX(5%) rotate(0deg);
+    }
+    100%{
+        transform: scaleX(100%) rotate(360deg);
+    }
+}
+
+#register-button {
+    height: 30px;
+    width: 100%;
+}
+
+#register-button:hover{
+    transform: rotate(90deg);
+}

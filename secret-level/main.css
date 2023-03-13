@@ -1,0 +1,9 @@
+#home-button{
+    font-size: 10rem;
+    border: 2px solid black;
+    border-radius: 90%;
+}
+
+#home-button:hover{
+    color: red;
+}

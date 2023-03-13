@@ -1,0 +1,12 @@
+#player-hp::before{
+    content: "Player HP: ";
+}
+
+#boss-hp::before{
+    content: "Boss HP: "
+}
+
+[data-health="50"]{
+    color: red;
+    font-size: 5rem;
+}
